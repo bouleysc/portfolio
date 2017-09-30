@@ -14,22 +14,31 @@ nav .mainNav li a:hover {
   font-family: 'Play', sans-serif !important; }
 
 .contact {
-  margin: 2em auto 0 auto !important; }
+  margin: 1em auto 0 auto !important; }
   .contact ul li {
     background-color: white; }
 
-nav {
-  position: inherit !important; }
+.nameBackground {
+  background-color: #7a7a7a; }
 
 .denverBio {
   position: relative;
   width: 100%; }
+
+.denverBio figure {
+  margin-bottom: 0.5em; }
 
 figure .denver {
   display: block;
   height: auto;
   width: 100%;
   border: 5px solid black; }
+
+.profile {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border: 2px white solid; }
 
 .bio {
   position: absolute;
@@ -41,11 +50,6 @@ figure .denver {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
-
-.profile {
-  display: block;
-  margin: auto;
-  width: 30%; }
 
 .overlay {
   position: absolute;
@@ -71,8 +75,9 @@ figure .denver {
 .top {
   text-decoration: underline; }
 
-.tags {
-  letter-spacing: 0.1em; }
+.tag {
+  letter-spacing: 0.1em;
+  color: black !important; }
 
 .box {
   background-color: white; }
@@ -86,5 +91,49 @@ figure .denver {
 .name {
   font-family: optimizeLegibility;
   font-size: 4em !important; }
+
+@media screen and (max-width: 1026px) {
+  .bio {
+    position: relative;
+    overflow: scroll;
+    border: 2px #00d1b2 solid;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    font-size: 1.5em !important; }
+
+  .sectionTitle {
+    line-height: 1.5em;
+    border-top: 3px solid white;
+    border-bottom: 6px solid white; } }
+@media screen and (max-width: 768px) {
+  .mainNav {
+    font-size: 0.75rem !important; }
+
+  .tag {
+    letter-spacing: normal;
+    font-size: 0.75rem !important; }
+
+  .fullStack {
+    font-size: 1.25rem !important; }
+
+  .bio {
+    position: relative;
+    overflow: auto;
+    border: 2px #00d1b2 solid;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    font-size: 0.8em !important; }
+
+  .sectionTitle {
+    line-height: 1.5em;
+    border-top: 3px solid white;
+    border-bottom: 6px solid white; }
+
+  .contact {
+    font-size: 0.75rem; }
+    .contact a {
+      padding: 0; } }
 
 /*# sourceMappingURL=base.css.map */

@@ -28,7 +28,7 @@ nav {
 }
 
 .contact {
-  margin: 2em auto 0 auto !important;
+  margin: 1em auto 0 auto !important;
   ul {
     li {
       background-color: white;
@@ -36,13 +36,19 @@ nav {
   }
 }
 
-nav {
-  position:inherit !important;
+.nameBackground {
+  background-color: $grey;
 }
 
 .denverBio {
   position: relative;
   width: 100%;
+}
+
+.denverBio {
+  figure {
+    margin-bottom: 0.5em;
+  }
 }
 
 figure {
@@ -52,6 +58,13 @@ figure {
     width: 100%;
     border: 5px solid black;
   }
+}
+
+.profile {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border: 2px white solid;
 }
 
 .bio {
@@ -64,12 +77,6 @@ figure {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.profile {
-  display: block;
-  margin: auto;
-  width: 30%;
 }
 
 .overlay {
@@ -101,8 +108,9 @@ figure {
   text-decoration: underline;
 }
 
-.tags {
+.tag {
   letter-spacing: 0.1em;
+  color: black !important;
 }
 
 .box {
@@ -119,4 +127,56 @@ figure {
 .name {
   font-family: $render-mode;
   font-size: 4em !important;
+}
+
+@media screen and (max-width: 1026px) {
+  .bio {
+    position: relative;
+    overflow: scroll;
+    border: 2px $turquoise solid;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    font-size: 1.5em !important;
+  }
+  .sectionTitle {
+    line-height: 1.5em;
+    border-top: 3px solid white;
+    border-bottom: 6px solid white;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .mainNav {
+    font-size: $size-small !important;
+  }
+  .tag {
+    letter-spacing: normal;
+    font-size: $size-small !important;
+  }
+  .fullStack {
+    font-size: $size-medium !important;
+  }
+  .bio {
+    position: relative;
+    overflow: auto;
+    border: 2px $turquoise solid;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    font-size: 0.8em !important;
+  }
+  .sectionTitle {
+    line-height: 1.5em;
+    border-top: 3px solid white;
+    border-bottom: 6px solid white;
+  }
+  .contact {
+    font-size: $size-small;
+    a {
+      padding: 0;
+
+    }
+  }
 }
