@@ -8,7 +8,8 @@ nav .mainNav li a:hover {
 
 .name {
   font-family: 'Libre Franklin', sans-serif !important;
-  padding-bottom: 0.20em; }
+  padding-bottom: 0.20em;
+  color: white !important; }
 
 .position {
   font-family: 'Play', sans-serif !important; }
@@ -74,6 +75,9 @@ figure .denver {
 
 .top {
   text-decoration: underline; }
+
+.tags {
+  justify-content: center !important; }
 
 .tag {
   letter-spacing: 0.1em;

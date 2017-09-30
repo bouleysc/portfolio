@@ -21,6 +21,7 @@ nav {
 .name {
   font-family: 'Libre Franklin', sans-serif !important;
   padding-bottom: 0.20em;
+  color: white !important;
 }
 
 .position {
@@ -106,6 +107,10 @@ figure {
 
 .top {
   text-decoration: underline;
+}
+
+.tags {
+  justify-content: center !important;
 }
 
 .tag {
