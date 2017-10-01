@@ -137,7 +137,9 @@ figure .denver {
 
   .contact {
     font-size: 0.75rem; }
-    .contact a {
-      padding: 0; } }
+    .contact .navbar-item {
+      padding: 0 0.5rem; }
+      .contact .navbar-item span {
+        margin: 0 !important; } }
 
 /*# sourceMappingURL=base.css.map */
