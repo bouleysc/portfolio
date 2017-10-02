@@ -122,6 +122,10 @@ figure {
   background-color: $white;
 }
 
+.is-child {
+  height: 130vh;
+}
+
 .sectionTitle {
   font-size: 1.5em;
   border-bottom: 10px solid white;
@@ -149,7 +153,6 @@ figure {
     border-top: 3px solid white;
     border-bottom: 6px solid white;
   }
-
 }
 
 @media screen and (max-width: 768px) {
