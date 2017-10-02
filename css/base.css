@@ -79,10 +79,13 @@ figure .denver {
 .tags {
   justify-content: center !important; }
 
-.tag {
+.skills .tag {
   letter-spacing: 0.1em;
   color: black !important;
   background-color: #b5b5b5 !important; }
+
+.fullStack {
+  background-color: #3273dc !important; }
 
 .box {
   background-color: white; }
