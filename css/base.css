@@ -51,6 +51,8 @@ figure .denver {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
+  .bio figure {
+    margin-bottom: 0 !important; }
 
 .overlay {
   position: absolute;

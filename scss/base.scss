@@ -78,6 +78,12 @@ figure {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  figure {
+    margin-bottom: 0 !important;
+  }
+  // h1 {
+  //   margin-bottom: 0 !important;
+  // }
 }
 
 .overlay {
