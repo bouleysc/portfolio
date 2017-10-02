@@ -81,7 +81,8 @@ figure .denver {
 
 .tag {
   letter-spacing: 0.1em;
-  color: black !important; }
+  color: black !important;
+  background-color: #b5b5b5 !important; }
 
 .box {
   background-color: white; }

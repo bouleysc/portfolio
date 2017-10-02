@@ -111,11 +111,13 @@ figure {
 
 .tags {
   justify-content: center !important;
+
 }
 
 .tag {
   letter-spacing: 0.1em;
   color: black !important;
+  background-color: $grey-light !important;
 }
 
 .box {
