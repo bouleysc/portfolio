@@ -9,7 +9,7 @@ nav .mainNav li a:hover {
 .name {
   font-family: 'Libre Franklin', sans-serif !important;
   padding-bottom: 0.20em;
-  color: white !important; }
+  color: #0a0a0a !important; }
 
 .position {
   font-family: 'Play', sans-serif !important; }
@@ -20,7 +20,7 @@ nav .mainNav li a:hover {
     background-color: white; }
 
 .nameBackground {
-  background-color: #7a7a7a; }
+  background: radial-gradient(circle, whitesmoke, #363636); }
 
 .denverBio {
   position: relative;
