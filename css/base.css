@@ -102,6 +102,10 @@ figure .denver {
   border-top: 5px solid white !important;
   color: white; }
 
+.card {
+  margin-bottom: 30px;
+}
+
 .campImage {
   height: 60% !important;
   width: 100% !important;
