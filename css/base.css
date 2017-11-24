@@ -1,15 +1,20 @@
-body {
-  background-color: whitesmoke; }
-
 nav .mainNav li a {
-  background-color: white; }
+  background-color: whitesmoke;
+  height: 2.25em; }
 nav .mainNav li a:hover {
   background-color: #3273dc !important; }
+nav .mainNav {
+  position: fixed !important; top: 0; left: 0; right: 0; }
 
 .name, .projectTitle {
-  font-family: 'Archivo Black', sans-serif !important;
-  padding-bottom: 0.20em;
+  font-family: 'Patua One', cursive !important;
+  margin-top: 0.80em;
   color: #0a0a0a !important; }
+
+.name {
+  letter-spacing: 0.05em;
+  font-size: 65px !important;
+}
 
 .position {
   font-family: 'Play', sans-serif !important; }
@@ -19,7 +24,7 @@ nav .mainNav li a:hover {
   .contact ul li {
     background-color: white; }
 
-.nameBackground {
+.nameBackground, body {
   background: radial-gradient(circle, whitesmoke, #363636); }
 
 .denverBio {
@@ -133,7 +138,11 @@ figure .denver {
 
 @media screen and (max-width: 768px) {
   .mainNav {
-    font-size: 0.75rem !important; }
+    font-size: 0.80rem !important; }
+
+  .name {
+    margin-top: 0.4em;
+  }
 
   .tag {
     letter-spacing: normal;

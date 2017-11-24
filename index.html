@@ -5,79 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sally Bouley</title>
     <link rel="icon" type="image/x-icon" href="/images/mtn.png">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
     <link rel="stylesheet" href="/css/base.css">
   </head>
   <body>
-    <header id="top">
+    <header>
       <div class="nameBackground">
-        <nav class="is-fullwidth is-centered is-large is-info tabs is-toggle">
-          <ul class="mainNav">
-            <li>
-              <a href="#about">
-                <span class="icon is-small"><i class="fa fa-user-circle-o"></i></span>
-                <span>About</span>
-              </a>
-            </li>
-            <li>
-              <a href="#projects">
-                <span class="icon is-small"><i class="fa fa-tasks" aria-hidden="true"></i></span>
-                <span>Projects</span>
-              </a>
-            </li>
-            <li>
-              <a href="#resume">
-                <span class="icon is-small"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>
-                <span>Resum&eacute;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="container">
-          <h1 class="title is-1 has-text-weight-bold has-text-centered name">Sally Bouley</h1>
-          <h2 class="subtitle has-text-centered position"><span class="fullStack tag is-rounded is-size-3">Full Stack Developer</span></h2>
-        </div>
-        <nav class="navbar contact breadcrumb has-bullet-separator is-centered">
-          <ul class="navbar-brand">
-            <li>
-              <a class="navbar-item" href="https://www.linkedin.com/in/bouleysc/">
-                <span class="icon is-medium">
-                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </span>
-                <span>/bouleysc/</span>
-              </a>
-            </li>
-            <li>
-              <a class="navbar-item" href="https://github.com/bouleysc">
-                <span class="icon is-medium">
-                  <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
-                </span>
-                <span>/bouleysc/</span>
-              </a>
-            </li>
-            <li>
-              <a class="navbar-item">
-                <span class="icon is-medium">
-                  <i class="fa fa-slack fa-2x" aria-hidden="true"></i>
-                </span>
-                <span>sally_bouley</span>
-              </a>
-            </li>
-            <li>
-              <a class="navbar-item" href="mailto:sallybouley87@gmail.com">
-                <span class="icon is-medium">
-                  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                </span>
-                <span>sallybouley87@gmail.com</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <div class="container">
+        <h1 class="title is-1 has-text-weight-bold has-text-centered name">Sally Bouley</h1>
+        <div id="contact"></div>
+        <h2 class="subtitle has-text-centered position"><span class="fullStack tag is-rounded is-size-3">Full Stack Developer</span></h2>
       </div>
-      <section class="section denverBio">
+      <nav class="navbar contact breadcrumb has-bullet-separator is-centered">
+        <ul class="navbar-brand">
+          <li>
+            <a class="navbar-item" href="https://www.linkedin.com/in/bouleysc/">
+              <span class="icon is-medium">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              </span>
+              <span>/bouleysc/</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="https://github.com/bouleysc">
+              <span class="icon is-medium">
+                <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+              </span>
+              <span>/bouleysc/</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item">
+              <span class="icon is-medium">
+                <i class="fa fa-slack fa-2x" aria-hidden="true"></i>
+              </span>
+              <span>sally_bouley</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="mailto:sallybouley87@gmail.com">
+              <span class="icon is-medium">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              </span>
+              <span>sallybouley87@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+      <div id="about"></div>
+      <section class="section denverBio nameBackground">
         <figure class="image is-16by9">
           <img class="denver" src="images/denver.jpg">
         </figure>
@@ -115,11 +95,10 @@
             <h1 class="title">
               <span class="sectionTitle">PROJECTS</span>
             </h1>
-            <a href="#top" class="is-size-4 has-text-weight-bold has-text-info top subtitle">TOP</a>
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section nameBackground">
         <div class="card">
           <div class="card-image">
             <iframe src="https://kidcampguide.firebaseapp.com/" height="600px" width="100%"></iframe>
@@ -222,7 +201,6 @@
             <h1 class="title">
               <span class="sectionTitle">RESUM&Eacute;</span>
             </h1>
-            <a href="#top" class="is-size-4 has-text-weight-bold has-text-info top subtitle">TOP</a>
           </div>
         </div>
       </section>
@@ -351,6 +329,7 @@
       </section>
     </main>
     <footer>
+      <div class="nameBackground">
       <nav class="is-fullwidth is-centered is-large is-info tabs is-toggle">
         <ul class="mainNav">
           <li>
@@ -371,8 +350,15 @@
               <span>Resum&eacute;</span>
             </a>
           </li>
+          <li>
+            <a href="#contact">
+              <span class="icon is-small"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+              <span>Contact Info</span>
+            </a>
+          </li>
         </ul>
       </nav>
+    </div>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.js"
