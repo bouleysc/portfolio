@@ -1,3 +1,7 @@
+$('.loading').show();
+setTimeout(function(){
+  $('.loading').hide();
+}, 5000);
 $(document).ready(function(){
   $('a[href*="#"]').click(function(event){
     if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')

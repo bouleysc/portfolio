@@ -16,6 +16,12 @@ nav .mainNav {
   font-size: 65px !important;
 }
 
+iframe {
+  display: flex;
+  align-items: center;
+  margin:auto;
+}
+
 .position {
   font-family: 'Play', sans-serif !important; }
 
