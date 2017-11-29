@@ -3,7 +3,6 @@ setTimeout(function(){
   $('.loading').hide();
 }, 5000);
 $(document).ready(function(){
-  $('.website').load(function(){callback(this)})
   $('a[href*="#"]').click(function(event){
     if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
       && location.hostname == this.hostname) {
